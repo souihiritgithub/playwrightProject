@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "homepage-title-verification;user-navigates-to-homepage",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User navigates to homepage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1072871000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to the Playwright homepage",
+            "match": {
+              "location": "tests\\step_definitions\\homepage.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1980985900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I expect the title to contain \"Playwright\"",
+            "match": {
+              "location": "tests\\step_definitions\\homepage.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38010200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 471233699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "homepage-title-verification",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Homepage Title Verification",
+    "tags": [],
+    "uri": "features\\homepage.feature"
+  }
+]

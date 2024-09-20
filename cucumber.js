@@ -1,10 +1,9 @@
+// cucumber.js
+
 module.exports = {
- default: `--require-module ts-node/register --require ./steps/**/*.ts --format progress`,
-  //"require": ["features/step_definitions/**/*.js"],
-  //"format": ["progress"]
+  default: {
+    require: ['tests/step_definitions/*.ts', 'tests/support/*.ts'], // Les chemins vers vos fichiers d'étapes et hooks
+    format: ['json:./reports/cucumber_report.json'], // Crée un rapport JSON
+    publishQuiet: true,
+  },
 };
-
-
-  
-
-
