@@ -4,9 +4,13 @@
   "description": "Playwright and Cucumber with Page Object Model",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "cucumber-js --require-module ts-node/register --format json:./reports/cucumber_report.json",
   "generate-report": "node cucumber-html-report.js",
   "serve-report": "npx http-server ./reports"  
+=======
+    "test": "cucumber-js --require-module ts-node/register --format json:cucumber_report.json"
+>>>>>>> f3003700d6c7f7eb5f9f38988f126616a8c79380
   },
   "keywords": [],
   "author": "",

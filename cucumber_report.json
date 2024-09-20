@@ -4,6 +4,7 @@
     "elements": [
       {
         "description": "",
+<<<<<<< HEAD
         "id": "homepage-title-verification;user-navigates-to-homepage",
         "keyword": "Scenario",
         "line": 5,
@@ -29,11 +30,30 @@
               "status": "failed",
               "duration": 5008165999,
               "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\souih\\playwright - Project2\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
+=======
+        "id": "validate-the-title-of-the-playwright-website;validate-the-title-of-the-playwright-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validate the title of the Playwright website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Playwright homepage",
+            "match": {
+              "location": "steps\\example.step..ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4918231700
+>>>>>>> f3003700d6c7f7eb5f9f38988f126616a8c79380
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
             "line": 7,
             "name": "I expect the title to contain \"Playwright\"",
             "match": {
@@ -50,6 +70,16 @@
             "result": {
               "status": "passed",
               "duration": 304396399
+=======
+            "line": 5,
+            "name": "I expect the title to contain \"Playwright\"",
+            "match": {
+              "location": "steps\\example.step..ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460614600
+>>>>>>> f3003700d6c7f7eb5f9f38988f126616a8c79380
             }
           }
         ],
@@ -57,11 +87,20 @@
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
     "id": "homepage-title-verification",
     "line": 3,
     "keyword": "Feature",
     "name": "Homepage Title Verification",
     "tags": [],
     "uri": "features\\homepage.feature"
+=======
+    "id": "validate-the-title-of-the-playwright-website",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validate the title of the Playwright website",
+    "tags": [],
+    "uri": "features\\example.feature"
+>>>>>>> f3003700d6c7f7eb5f9f38988f126616a8c79380
   }
 ]
