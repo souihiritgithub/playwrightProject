@@ -13,7 +13,7 @@ await page.getByRole('link', { name: 'How to write the first test' }).click();
 const firstCellLink = page.locator('table tr:first-of-type td:first-of-type a[href="/docs/api/class-locator#locator-check"]');
 
 await expect(firstCellLink).toHaveText('locator.check()'); // Vérifie que le lien a le texte attendu
-await page.pause();
+//await page.pause();
 
 
 });

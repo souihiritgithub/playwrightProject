@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-the-title-of-the-playwright-website;validate-the-title-of-the-playwright-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validate the title of the Playwright website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Playwright homepage",
+            "match": {
+              "location": "steps\\example.step..ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4918231700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I expect the title to contain \"Playwright\"",
+            "match": {
+              "location": "steps\\example.step..ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460614600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-the-title-of-the-playwright-website",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validate the title of the Playwright website",
+    "tags": [],
+    "uri": "features\\example.feature"
+  }
+]
