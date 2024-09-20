@@ -4,9 +4,9 @@
   "description": "Playwright and Cucumber with Page Object Model",
   "main": "index.js",
   "scripts": {
-   "test": "cucumber-js --require-module ts-node/register --format json:cucumber_report.json",
-   "playwright": "npx playwright test"
-
+    "test": "cucumber-js --require-module ts-node/register --format json:./reports/cucumber_report.json",
+  "generate-report": "node cucumber-html-report.js",
+  "serve-report": "npx http-server ./reports"  
   },
   "keywords": [],
   "author": "",

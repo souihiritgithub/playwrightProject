@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1072871000
+              "duration": 487535499
             }
           },
           {
@@ -26,8 +26,9 @@
               "location": "tests\\step_definitions\\homepage.steps.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 1980985900
+              "status": "failed",
+              "duration": 5008165999,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\souih\\playwright - Project2\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)"
             }
           },
           {
@@ -39,8 +40,8 @@
               "location": "tests\\step_definitions\\homepage.steps.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 38010200
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -48,7 +49,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 471233699
+              "duration": 304396399
             }
           }
         ],
