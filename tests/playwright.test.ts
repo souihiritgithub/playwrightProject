@@ -1,6 +1,6 @@
 import {test, expect} from "@playwright/test";
 
-test ('Mon premier test', async({page}) => {
+test ('Verification of Navigation and Links in Playwright Documentation', async({page}) => {
 
 await page.goto('https://playwright.dev/')
 await expect(page).toHaveTitle(/Playwright/)
