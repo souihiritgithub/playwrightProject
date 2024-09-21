@@ -1,11 +1,14 @@
 import { test, expect } from '@playwright/test';
+import { chromium, Browser, Page } from 'playwright';
+
+let browser: Browser;
 
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
-  //await page.pause();
+  await page.pause();
 });
 
 test('get started link', async ({ page }) => {
@@ -17,5 +20,5 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
   await page.pause();
-
+  //await browser.close();
 });

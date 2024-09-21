@@ -1,4 +1,7 @@
 import {test, expect} from "@playwright/test";
+import { chromium, Browser, Page } from 'playwright';
+
+let browser: Browser;
 
 test ('Mon premier test', async({page}) => {
 
@@ -14,6 +17,5 @@ const firstCellLink = page.locator('table tr:first-of-type td:first-of-type a[hr
 
 await expect(firstCellLink).toHaveText('locator.check()'); // Vérifie que le lien a le texte attendu
 await page.pause();
-
-
+//await browser.close();
 });
